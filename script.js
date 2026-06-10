@@ -26,7 +26,13 @@ function secti() {
     }
 }
 
+function odecti() {
+    
+}
+
 // Přiřazení funkce secti k události kliknutí na tlačítko.
 btnSoucet.onclick = secti;
 // Přiřazení funkce secti k události kliknutí na textové pole výsledku.
 tbxVysledek.onclick = secti;
+// Přiřazení funkce odecti k události dvojité kliknutí na textové pole výsledku.
+tbxVysledek.ondblclick = odecti;
