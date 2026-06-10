@@ -26,9 +26,15 @@ body {
     border-radius: 4px;
 }
 
+/* Nový kontejner pro tlačítka */
+.button-group {
+    display: flex;       /* Seřadí prvky vedle sebe */
+    gap: 10px;           /* Vytvoří přesný odstup 10px mezi tlačítky */
+}
+
 .calculator button {
     font-size: 30px;
-    width: 100%;
+    flex: 1;             /* Každé tlačítko zabere stejný podíl místa (50% - polovina mezery) */
     padding: 10px;
     background-color: #007BFF;
     color: white;

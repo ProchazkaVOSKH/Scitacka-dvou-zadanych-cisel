@@ -2,7 +2,7 @@
 const tbxCislo1 = document.getElementById("operand1");
 const tbxCislo2 = document.getElementById("operand2");
 const tbxVysledek = document.getElementById("result");
-const btnSoucet = document.getElementById("pocitej");
+const btnSoucet = document.getElementById("soucet");
 const obsahStranky = document.body;
 
 // Nastavení výchozí barvy pozadí stránky.
