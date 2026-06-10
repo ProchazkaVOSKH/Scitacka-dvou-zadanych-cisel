@@ -2,8 +2,7 @@
 const tbxCislo1 = document.getElementById("operand1");
 const tbxCislo2 = document.getElementById("operand2");
 const tbxVysledek = document.getElementById("result");
-const btnSoucet = document.getElementById("soucet");
-const obrazek = document.getElementById("o1");
+const btnSoucet = document.getElementById("pocitej");
 const obsahStranky = document.body;
 
 // Nastavení výchozí barvy pozadí stránky.
@@ -22,10 +21,8 @@ function secti() {
     // Podmínka pro změnu barvy pozadí a obrázku podle výsledku.
     if (vysledek >= 0) {
         obsahStranky.style.backgroundColor = "green"; // Zelené pozadí pro kladný výsledek.
-        o1.src = "dobre.jpg"; // Obrázek pro kladný výsledek.
     } else {
         obsahStranky.style.backgroundColor = "red"; // Červené pozadí pro záporný výsledek.
-        o1.src = "chyba.jpg"; // Obrázek pro záporný výsledek.
     }
 }
 
